@@ -13,3 +13,13 @@ body {
 body div {
   font-size: 10;
 }
+
+.red {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .red {
+    border: 0;
+  }
+}
